@@ -9,6 +9,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Helvetica, Arial, sans-serif;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* header styles */
 
 header {
@@ -43,15 +52,6 @@ header nav ul li {
 }
 
 /* header styles end */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
 
 /* hero style start */
 .hero {
@@ -89,6 +89,7 @@ p {
     height: 300px;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .online-reputation-management {
@@ -97,6 +98,7 @@ p {
     height: 300px;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .social-media-marketing {
@@ -105,6 +107,7 @@ p {
     height: 300px;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .search-engine-optimization img {
@@ -135,7 +138,7 @@ p {
 }
 
 
-/* Vertical Container Content Styles */
+/* Vertical Container Benefits Styles */
 
 .benefits {
     margin-right: 20px;
@@ -195,12 +198,14 @@ p {
     max-width: 150px;
 }
 
-.footer {
+/* footer styles */
+
+footer {
     padding: 30px;
     clear: both;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
